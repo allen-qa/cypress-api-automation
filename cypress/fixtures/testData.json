@@ -1,0 +1,42 @@
+{
+    "users": {
+        "valid": {
+            "name": "morpheus",
+            "job": "leader",
+            "email": "eve.holt@reqres.in",
+            "password": "cityslicka"
+        },
+        "invalid": {
+            "email": "nonexistent@reqres.in",
+            "password": "wrongpassword"
+        },
+        "update": {
+            "name": "neo",
+            "job": "the one"
+        }
+    },
+    "auth": {
+        "validLogin": {
+            "email": "eve.holt@reqres.in",
+            "password": "cityslicka"
+        },
+        "invalidLogin": {
+            "email": "fake@reqres.in",
+            "password": "wrong"
+        }
+    },
+    "endpoints": {
+        "baseUrl": "https://reqres.in/api",
+        "users": "/users",
+        "login": "/login",
+        "register": "/register"
+    },
+    "statusCodes": {
+        "success": 200,
+        "created": 201,
+        "noContent": 204,
+        "badRequest": 400,
+        "unauthorized": 401,
+        "notFound": 404
+    }
+}
