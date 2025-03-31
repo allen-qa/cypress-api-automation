@@ -1,3 +1,4 @@
+```bash
 /cypress/
 ├── e2e/
 │   ├── api/
@@ -13,3 +14,4 @@
 ├── support/
 │   ├── commands.js            # Custom commands (e.g., `cy.login()`)
 │   └── constants.js           # Base URLs, error messages
+```
